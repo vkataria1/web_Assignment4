@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/theme.css">
+    <title>Table</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-navbar-container">
+        <span class="nav-brand">Vishal</span>
+        <ul class="main-navbar">
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="/audio">Audio</a></li>
+            <li class="nav-item"><a href="/video">Video</a></li>
+            <li class="nav-item"><a href="/list">List</a></li>
+            <li class="nav-item"><a href="/table">Table</a></li>
+            <li class="nav-item"><a href="/storefront">Store</a></li>
+        </ul>
+    </div>
+    <section class="page">
+        <h1>HTML Tables</h1>
+        <p>I will be using my knowledge of HTML Tables to demonstrate tables</p>
+        <h2>Employee List</h2>
+        <table>
+            <caption>Employee List</caption>
+            <thead>
+                <tr>
+                    <th>EmpId</th>
+            <th>EmpName</th>
+            <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>A123</th>
+                    <th>Rubal Singh</th>
+                    <th>rb123@gmail.com</th>
+                </tr>
+                <tr>
+                    <th>B212</th>
+                    <th>Smriti Sharma</th>
+                    <th>ss77@gmail.com</th>
+                </tr>
+                <tr>
+                    <th>A233</th>
+                    <th>Arshpreet</th>
+                    <th>ap252@gmail.com</th>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Employee id,name and email</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2>Song List</h2>
+        <table>
+            <caption>Song List</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Singer</th>
+                    <th>Producer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>No Love</th>
+                    <th>Shubh</th>
+                    <th>Thiarajxtt</th>
+                </tr>
+                <tr>
+                    <th>Karan Aujla</th>
+                    <th>Gangsta</th>
+                    <th>Proof</th>
+                </tr>
+                <tr>
+                    <th>Dhakka</th>
+                    <th>Sidhu Moose Walla</th>
+                    <th>The Kid</th>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">My favourite songs</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</body>
+
+</html>
